@@ -15,6 +15,6 @@ Usage: 'python gdocload.py -u user -p password'
 
 I tested it with different kinds of documents. But I wouldn't really say that it's thoroughly tested. So if you find something not working, feel free to fix it or send me out a mail and I will *try* to fix it.
 
-Currently it doesn't work with PDF as Google Doc handles PDFs differently. But those who use LaTeX might want to store their PDF results in Google Doc periodically. I will add PDF support sometimes later, if nobody has done that before that.
+Currently it works with DOC, XLS and PPT files. It doesn't work with PDF as Google Doc handles PDFs differently. But those who use LaTeX might want to store their PDF results in Google Doc periodically. I will add PDF support sometimes later, if nobody has done that before that.
 
 Quick Caution: As of now, you have to enter the Google Doc password in plain text. So watch out for social engineers standing behind your shoulders. I will soon add some option to enter the password later with no bounce back of characters.
