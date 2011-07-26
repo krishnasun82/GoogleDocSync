@@ -1,0 +1,17 @@
+This Python code was written by me for my personal use to backup some documents with Google doc. It can also be used to edit documents, like IEEE formatted docsor CVs offline with Microsoft Office and back them up or share them periodically with friends. If others made changes to it, you can grab the latest documents to my local directory. 
+
+Usage: 'python gdocload.py -u user -p password'
+'Options:'
+' -u | --user: gmail id'
+' -p | --pass: password'
+' -m | --mode: mode of operation'
+'	1->sync Google doc with local (only upload, default)'
+'	2->sync local with Google Doc (only download)'
+'	3->sync on both sides'
+
+I tested it with different kinds of documents. But I wouldn't really say that it's thoroughly tested. So if you find something not working, feel free to fix it or send me out a mail and I will *try* to fix it.
+
+Currently it doesn't work with PDF as Google Doc handles PDFs differently. But those who use LaTeX might want to store their PDF results in Google Doc periodically. I will add PDF support sometimes later, if nobody has done that before that.
+
+Quick Caution: As of now, you have to enter the Google Doc password in plain text. So watch out for social engineers standing behind your shoulders. I will soon add some option to enter the password later with no bounce back of characters.
+
